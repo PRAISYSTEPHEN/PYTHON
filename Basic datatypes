@@ -1,0 +1,15 @@
+a=10
+
+print(a)
+
+x=20.54
+
+print(x)
+
+c=True
+
+print(c)
+
+s="I am the best"
+
+print(s)
