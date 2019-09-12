@@ -1,0 +1,16 @@
+x=int(input("Enter marks scored in maths"))
+y=int(input("Enter marks scored in physics"))
+z=int(input("Enter marks scored in chemistry"))
+
+if x>=35 and y>=35 and z>=35:
+    print("passed")
+    avg=(x+y+z)/3
+    if avg<=59:
+        print("C grade")
+    elif avg<=69:
+        print("B grade")
+    else:
+        print("A grade")
+        
+else:
+    print("Failed")
