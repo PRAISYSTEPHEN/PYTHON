@@ -1,0 +1,10 @@
+x=int(input("Enter a number"))
+
+a=0
+while a<x:
+    a+=1
+    if a%10==0:
+        continue
+    if a>100:
+        break
+    print(a)
