@@ -1,0 +1,10 @@
+class Student:
+    def __init__(self):
+        self.__id=123
+        self.__name="John"
+        self.__marks=100
+        
+s=Student()
+print(s._Student__id)
+print(s._Student__name)
+print(s._Student__marks)
