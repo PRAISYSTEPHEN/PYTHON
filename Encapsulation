@@ -1,0 +1,17 @@
+class Student:
+    def setId(self,ide):
+        self.ide=ide
+    def getId(self):
+        return self.ide
+    def setName(self,name):
+        self.name=name
+    def getName(self):
+        return self.name
+s=Student()
+s.setId(123)
+s.setName("John")
+print(s.getId())
+print(s.getName())
+
+
+
