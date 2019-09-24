@@ -1,0 +1,19 @@
+
+from datetime import date
+import time
+ldates=[]
+
+d1=date(2016,4,12)
+d2=date(2016,9,19)
+d3=date(2016,6,18)
+
+ldates.append(d1)
+ldates.append(d2)
+ldates.append(d3)
+
+ldates.sort()
+
+time.sleep(5)
+
+for d in ldates:
+    print(d)
